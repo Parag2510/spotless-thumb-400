@@ -1,0 +1,276 @@
+
+
+#Drag_pic_text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+  #Drag_pic_text> div > h1 {
+      font-size: 45px;
+      padding: 10px;
+      color: rgb(10, 12, 114);
+      text-align: center;
+  }
+
+
+ #mid_text {
+    display: flex;
+    gap: 0px;
+}
+
+.midtext_class{
+    padding: 23px 60px;
+    height: 450px;
+    width: 600px;
+    margin-top: 25px;
+
+}
+.midtext_class > h1 {
+    color: #181c47;
+    font-family: sans-serif;
+     font-size: 40px;
+
+}
+.midtext_class > p {
+    color: #181c47;
+    font-family: sans-serif;
+    font-size:29px;
+}
+.midtext_class > button {
+    font-weight: 700;
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    color: rgb(14, 14, 209);
+    font-size: 16px;
+    border: 2px solid rgb(14, 14, 209);
+    background-color: white;
+}
+.big_image {
+    padding: 23px 45px;
+    height: 450px;
+    width: 600px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+.big_image > img {
+    height: 500px;
+    width: 700px;
+  
+}
+div{
+    text-align: center;
+    font-size: 22px;
+}
+#front  {
+   
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px;
+    margin: 45px;
+    margin-left: 80px;
+  
+} 
+
+.cont{
+    text-align: center;
+    color: #181c47;
+    font-family: sans-serif;
+}
+
+.drag {
+    height: 100px;
+}
+
+.sales {
+    text-align: center;
+    font-size: 17px;
+}
+.ball {
+    text-align: center;
+    font-size: 20px;
+}
+.ball_2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+}
+.buton_nil {
+    padding: 1%;
+    width: 300px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+#Parag{
+    width: 100%;
+    height: 1000px;
+    
+}
+.Plogo{
+    width: 15%;
+    height: 5px;
+   
+    margin: auto;
+    margin-bottom: 85px;
+}
+.Plogo>img{
+    width: 100%;
+    height:80px;
+    
+}
+.Pdiv1{
+    width: 80%;
+    height: 100px;
+    display: flex;
+   
+    margin: auto;
+}
+.Pdiv1>div{
+   margin: auto;
+   color: blue;
+   font-weight: bold;
+}
+.Pdiv2{
+    width: 50%;
+    height: 60px;
+    display: flex;
+}
+.Pdiv2>div{
+   padding-left: 36px;
+}
+.Pdiv2>div>p{
+    padding-left: 65px;
+    
+}
+.Pdiv2>div>button{
+    border-radius: 10px;
+    text-align: center;
+    
+    padding: 10px;
+    background-color: blue;
+    color: white;
+
+}
+
+#navbar{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_div1>div:nth-child(1){
+    width: 40%;
+    height: 5vh;
+}
+#navbar img{
+    width: 110%;
+    height: 150%;
+    margin-top: -20px;
+    margin-right: 15px;
+}
+.navbar_div2{
+    display: flex;
+}
+.navbar_div2>div:nth-child(1){
+    width: 15%;
+    height: 10vh;
+}
+.navbar_div2>h4{
+    margin-top: 40px;
+    margin-left: 20PX;
+    color: navy;
+    align-items: center;
+}
+.navbar_div2>h4:nth-of-type(6){
+    flex-grow: 3;
+}
+.navbar_div3{
+    display: grid;
+    grid-template-areas: "left1 l"
+    "left2 right"
+    "left3 right"
+    "left4 right"
+    "left5 right"
+    "left6 right";
+    background-color: #f4f9fc;
+    margin-top: 10px;
+}
+#left1{
+    height: 90px;
+    grid-area: left1;
+}
+#left2{
+    height: 90px;
+    grid-area: 2;
+}
+#left3{
+    height: 90px;
+    grid-area: 3;
+}
+#left4{
+    height: 90px;
+    grid-area: 4;
+}
+#left5{
+    height: 90px;
+    grid-area: left5;
+}
+#left6{
+    height: 90px;
+    grid-area: left6;
+}
+#right{
+    height: 420px;
+    grid-area: right;
+}
+#left1>img{
+     width: 20vw;
+     height: 5.6vw;
+}
+#left2>img{
+     width: 10vw;
+     height: 5.6vw;
+}
+.navbar_div3_left{
+    display: flex;
+}
+#left3>div{
+     width: 10vw;
+     height: 5.6vw;
+}
+#left4>div{
+     width: 10vw;
+     height: 5.6vw;
+}
+#left5>div{
+     width: 10vw;
+     height: 5.6vw;
+}
+#left6>div{
+     width: 10vw;
+     height: 2vw;
+}
+#navbar h1{
+    font-size: 57px;
+    color: navy;
+}
+#navbar button{
+    background: navy;
+    width: 40vh;
+    height: 8vh;
+    border-radius: 25px;
+    color: white;
+    font-size: 24px;
+}
+#right>div{
+    width: 525px;
+    height: 332px;
+    background: rgba(255,111,94,255);
+}
+
