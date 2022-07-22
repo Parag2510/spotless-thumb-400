@@ -17,6 +17,7 @@
  #mid_text {
     display: flex;
     gap: 0px;
+    margin-left: 120px;
 }
 
 .midtext_class{
@@ -64,6 +65,7 @@ div{
     text-align: center;
     font-size: 22px;
 }
+/* page2 */
 #front  {
    
     display: grid;
@@ -71,7 +73,8 @@ div{
     grid-template-columns: 400px 400px 400px;
     grid-template-rows: 300px;
     margin: 45px;
-    margin-left: 80px;
+    margin-left: 170px;
+
   
 } 
 
@@ -142,6 +145,7 @@ div{
     width: 50%;
     height: 60px;
     display: flex;
+    margin-left: 20px;
 }
 .Pdiv2>div{
    padding-left: 36px;
@@ -209,6 +213,7 @@ div{
 #left2{
     height: 90px;
     grid-area: 2;
+    margin-left: 190px;
 }
 #left3{
     height: 90px;
