@@ -3,8 +3,6 @@ var free_button = document.getElementById("log")
 
 function changecolour(){
    free_button.style.backgroundColor="rgb(10, 12, 114)"
-  
-   
 }
 
 function chnage_text_color(){
